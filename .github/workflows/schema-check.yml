@@ -10,4 +10,4 @@ jobs:
         with: { node-version: lts/*, cache: pnpm }
       - run: pnpm install --frozen-lockfile
       - run: pnpm --filter @maquette/schema run generate
-      - run: git diff --exit-code packages/schema/json-schema
+      - run: git diff --exit-code packages/schema/published
