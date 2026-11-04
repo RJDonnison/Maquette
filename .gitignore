@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+.env
+.env.*
+!.env.example
+
+# generated data
+data/renders/
+data/exports/
+*.sqlite
+*.sqlite-journal
+
+# playwright
+playwright-report/
+test-results/
+
+.DS_Store
